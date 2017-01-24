@@ -20,6 +20,17 @@ namespace assignments
         {
             get { return 2 * (Width + Height); }
         }
+        // Constructors
+        public Window()
+        {
+            // Default Constructor
+        }
+        public Window (float width, float height)
+        {
+            Height = height;
+            Width = width;
+        }
+
         // Methods
         public float CalculateArea()
         {
@@ -56,7 +67,12 @@ namespace assignments
 
             // Area = window.CalculateArea();
             Console.WriteLine("Object Oriented:");
-            Console.WriteLine("The area of the window is {0} and the perimeter is {1}", window.Area, window.Perimeter);
+            Console.WriteLine("The area of the window is {0} and the perimeter is {1} \n", window.Area, window.Perimeter);
+
+            // Testing 2nd Constructor with a smaller window
+            Window window2 = new Window(Width / 2, Height / 2);
+            Console.WriteLine("Constructor 2:");
+            Console.WriteLine("The area of the window is {0} and the perimeter is {1}", window2.Area, window2.Perimeter);
         }
     }
 }
