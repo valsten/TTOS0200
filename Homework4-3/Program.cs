@@ -27,20 +27,15 @@ namespace Homework4_3
         }
     }
 
-    class Boss
+    class Boss : Employee
     {
-        public string Name { get; set; }
-        public string Profession { get; set; }
-        public float Salary { get; set; }
         public string Car { get; set; }
         public float Bonus { get; set; }
 
 
         public Boss(string name, string profession, float salary, string car, float bonus)
+            : base(name, profession, salary)
         {
-            Name = name;
-            Profession = profession;
-            Salary = salary;
             Car = car;
             Bonus = bonus;
         }
