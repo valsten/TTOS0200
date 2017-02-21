@@ -9,6 +9,7 @@
 teksti1.txt
 teksti2.txt
 teksti3.txt
+temp/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
