@@ -35,6 +35,7 @@ namespace dice
             int num4 = 0;
             int num5 = 0;
             int num6 = 0;
+            Console.Write("How many times do you want to throw the dice: ");
             int throwCount = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 0; i < throwCount; i++)
