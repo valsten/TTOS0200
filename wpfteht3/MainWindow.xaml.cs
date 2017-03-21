@@ -33,7 +33,7 @@ namespace wpfteht3
             double calculation1 = value1 * value2;
             ikkunaBox.Text = calculation1.ToString("0.00") + " cm^2";
 
-            double calculation2 = (value1 - value3) * (value2 - value3);
+            double calculation2 = (value1 - (value3 * 2)) * (value2 - (value3 * 2));
             lasiBox.Text = calculation2.ToString("0.00") + " cm^2";
 
             double calculation3 = calculation1 - calculation2;
