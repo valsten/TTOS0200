@@ -14,7 +14,7 @@
         <Button x:Name="eurotomarkka" Content="Convert to Markka" HorizontalAlignment="Left" Height="51" Margin="30,160,0,0" VerticalAlignment="Top" Width="192" Click="eurotomarkka_Click" Grid.ColumnSpan="2"/>
         <Button x:Name="markkatoeuro" Content="Convert to Euro" HorizontalAlignment="Left" Height="51" Margin="213.089,160,0,0" VerticalAlignment="Top" Width="191" Click="markkatoeuro_Click" Grid.Column="1"/>
         <TextBox x:Name="amount" HorizontalAlignment="Left" Height="39" Margin="82.089,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" GotFocus="amount_GotFocus" Text="Insert amount" Grid.Column="1"/>
-        <TextBlock x:Name="converted" HorizontalAlignment="Left" Height="24" Margin="116.089,265,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="109" Grid.Column="1"/>
+        <TextBlock x:Name="converted" HorizontalAlignment="Left" Height="24" Margin="116.089,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" Grid.Column="1"/>
 
     </Grid>
 </Window>
