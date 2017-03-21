@@ -38,5 +38,12 @@ namespace wpfteht2
             double conversion = temp / 5.94573;
             converted.Text = conversion.ToString("0.00");
         }
+
+        private void amount_GotFocus(object sender, RoutedEventArgs e)
+        {
+            TextBox amount = (TextBox)sender;
+            amount.Text = string.Empty;
+            amount.GotFocus -= amount_GotFocus;
+        }
     }
 }
