@@ -254,3 +254,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/dhcp-server-base
+/dhcp-server-base
