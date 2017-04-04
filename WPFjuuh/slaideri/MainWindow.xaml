@@ -1,0 +1,14 @@
+﻿<Window x:Class="slaideri.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:slaideri"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid x:Name="myGrid">
+        <Slider x:Name="slider" HorizontalAlignment="Left" Height="43" Margin="0 50" VerticalAlignment="Top" Width="{Binding ElementName=myGrid, Path=ActualWidth }"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="60" Margin="148,123,0,0" Text="{Binding ElementName=slider, Path=Value}" VerticalAlignment="Top" Width="245"/>
+
+    </Grid>
+</Window>
