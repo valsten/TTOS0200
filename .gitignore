@@ -17,6 +17,7 @@ client2/
 dhcp-server/
 router1/
 router2/
+jotainjuttuja/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
